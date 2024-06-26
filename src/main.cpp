@@ -1,7 +1,11 @@
 #include <Arduino.h>
 #include <moteurs.h>
 #include <CRAC.h>
+#include <ESP32Encoder.h>
 
+
+
+  
 
 
 void setup() {
@@ -17,6 +21,7 @@ void setup() {
 
 void loop() {
 
-
-
+  
+  write_PWMD(2048);
+  write_PWMG(2048);
 }
